@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960446114350",
+    "project_id": "malov-mis",
+    "storage_bucket": "malov-mis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960446114350:android:1eb1b3593f19034a854dbf",
+        "android_client_info": {
+          "package_name": "com.example.mis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960446114350-6fr9up0nrhffmnqd5gi7366jd6dbdgtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCltxAO-2r5ztDQVCKZGs1Yv-j1FfeP6h4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960446114350-6fr9up0nrhffmnqd5gi7366jd6dbdgtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
