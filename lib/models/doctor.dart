@@ -8,6 +8,8 @@ class Doctor {
   final String createdAt; 
   @JsonKey(name: "user_id")
   final String? userId;
+  @JsonKey(name: "speciality_id")
+  final int? specialityId;
   @JsonKey(name: "Name")
   final String name;
 
@@ -18,6 +20,7 @@ class Doctor {
 
   Doctor({
     required this.id,
+    required this.specialityId,
     required this.createdAt,
     required this.userId,
     required this.name,

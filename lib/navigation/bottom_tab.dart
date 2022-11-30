@@ -48,13 +48,13 @@ class NavigationTab extends StatelessWidget {
                 SvgPicture.asset(
                   //'${icon ?? 'assets/icons/cart'}${isSelected ? '-active.svg' : '.svg'}'
                   icon ?? 'assets/icons/cart',
-                  color: isSelected ? CustomColors.orange : Colors.black,
+                  color: isSelected ? CustomColors.brandLight : Colors.black,
                 ),
                 const SizedBox(height: 5),
                 Text(
                   title,
                   style: textStyle.t12400().copyWith(
-                      color: isSelected ? CustomColors.orange : Colors.black),
+                      color: isSelected ? CustomColors.brandLight : Colors.black),
                 )
               ],
             ),

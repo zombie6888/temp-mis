@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:mis/features/client/appointment/appointment_doctor.dart';
 import 'package:mis/store/appointment/appointment_bloc.dart';
 import 'package:mis/store/appointment/appointment_event.dart';
 import 'package:mis/store/appointment/appointment_state.dart';
@@ -21,10 +22,13 @@ class _AppointmentDoctorDelegateState extends State<AppointmentDoctorDelegate> {
 
   @override
   Widget build(BuildContext context) {
-    return BlocListener<AppointmentBloc, AppointmentState>(
+    return BlocConsumer<AppointmentBloc, AppointmentState>(
         listener: (context, state) {
       final test = state.doctors;
-      print(test);
-    }, child: Container());
+    }, builder: (context, state) {
+      return AppointmentDoctors(
+        doctors: state.doctors,
+      );
+    });
   }
 }

@@ -54,7 +54,7 @@ class BottomTabs extends StatelessWidget {
           Text(
             title,
             style: textStyle.t12400().copyWith(
-                color: isSelected ? CustomColors.orange : Colors.black),
+                color: isSelected ? CustomColors.brandLight : Colors.black),
           )
         ],
       ),
@@ -92,7 +92,7 @@ class BottomTabs extends StatelessWidget {
     return SizedBox(
       height: 70,
       child: BottomAppBar(
-        color: CustomColors.grey2,
+        color: Colors.black,
         notchMargin: 0,
         child:
             // Row(
